@@ -29,8 +29,8 @@ sudo apt-get install -y python-dev python3-dev
 sudo apt-get install -y exuberant-ctags
 sudo apt-get install -y libclang1-3.8 libclang-3.8-dev
 # prepare for font patch
-git clone https://github.com/Lokaltog/powerline-fonts ~/.fonts
-fc-cache ~/.fonts
+git clone https://github.com/powerline/fonts ~/.fonts
+sh ~/.fonts/install.sh
 
 # prepare for oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
