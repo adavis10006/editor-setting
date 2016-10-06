@@ -1,0 +1,3 @@
+"redirect to vimrc file
+source ~/.vim/config/config-ssh.vim
+source ~/.vim/config/neocomplcache-config.vim

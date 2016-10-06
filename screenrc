@@ -1,0 +1,33 @@
+defc1 off
+defshell /bin/tcsh
+
+#1
+caption always "%{= wk} %{= KY} [%n]%t @ %H %{-} %= %{= KR} %l %{-} | %{= KG} %Y-%m-%d %{-} "
+hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %0c:%s "
+#2
+#caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+#hardstatus alwaysignore
+#hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y/%m/%d%{= .m} %0c:%s "
+#3
+#caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+#hardstatus alwaysignore
+#hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y/%m/%d%{= .m} %C %A"
+#4
+#caption always "%{=u .G} %-w%<%{=ub .y}%n %t%{=u .G}%+w "
+#hardstatus alwayslastline "%{= wk} %{by} %H %{wk} | %-Lw%{kw}◣%{= g}%n%f* %t%{wk}◤%{wk}%+Lw%< %= %{kw}◣%{= R} [%m/%d %c] %{-}"
+
+#termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+#termcapinfo xterm "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+#termcapinfo xterm-color "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+attrcolor b ".I"
+# tell screen how to set colors. AB = background, AF=foreground
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+termcapinfo xterm-color "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+# erase background with current bg color
+defbce "on"
+# set TERM
+# term screen-256color-bce
+
+defencoding utf8
+bind b encoding big5 utf8
+bind u encoding utf8 utf8
