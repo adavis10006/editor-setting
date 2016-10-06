@@ -57,11 +57,13 @@ Plugin 'valloric/youcompleteme'
 Plugin 'jiangmiao/auto-pairs'
 " Whitespace control
 Plugin 'ntpeters/vim-better-whitespace'
+" Table creation
+Plugin 'dhruvasagar/vim-table-mode'
 
 " File Search
 " search amd display information from buffers, files
 Plugin 'shougo/unite.vim'
-" nerdtree 
+" nerdtree
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
