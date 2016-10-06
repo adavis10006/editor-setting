@@ -16,6 +16,8 @@ source ~/.vim/config/auto-pairs.config.vim
 " Programming
 " - Syntax
 source ~/.vim/config/syntastic.config.vim
+" - Language
+source ~/.vim/config/markdown.config.vim
 
 " Common setting and key binding
 source ~/.vim/config/common.config.vim
