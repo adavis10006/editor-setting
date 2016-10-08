@@ -16,34 +16,35 @@ set shiftwidth=2
 
 set foldcolumn=4
 set foldmethod=syntax
-set foldlevel=1
-
+set foldlevel=3
 
 " syntax on
 syntax on
 
+filetype plugin on
+set shell=bash\ -i
+
 " hotkey to open plugin
 
-map <F5> :GundoToggle<CR>
-map <F6> :NumbersToggle<CR>
-map <F7> :NumbersOnOff<CR>
-map <F8> :TagbarToggle<CR>
-map <F10> :Unite<CR>
-map <F11> :NERDTreeToggle<CR>
+nnoremap <F5> :GundoToggle<CR>
+nnoremap <F6> :NumbersToggle<CR>
+nnoremap <F8> :TagbarToggle<CR>
+nnoremap <F10> :Unite<CR>
+nnoremap <F11> :NERDTreeToggle<CR>
 set pastetoggle=<F12>
 
 " hit enter to cancel searched highlight
-map <CR> :nohlsearch<CR>
+nnoremap <CR> :nohlsearch<CR>
 
 " tab hotkey
-map <C-t><C-t> :tabedit<CR>
-map <C-t><C-h> :tabn<CR>
-map <C-t><C-l> :tabp<CR>
-map <C-t><C-w> :bd<CR>
+nnoremap <C-t><C-t> :tabedit<CR>
+nnoremap <C-t><C-h> :tabn<CR>
+nnoremap <C-t><C-l> :tabp<CR>
+nnoremap <C-t><C-w> :bd<CR>
 
 " regenerate indent
-nmap <C-i><C-n> :set noet\|retab!<CR>
-nmap <C-i><C-e> :set et\|retab!<CR>
+nnoremap <C-i><C-n> :set noet\|retab!<CR>
+nnoremap <C-i><C-e> :set et\|retab!<CR>
 
 " auto indent
-nmap <C-i><C-i> ggVG=<CR>
+nnoremap <C-i><C-i> ggVG=<CR>

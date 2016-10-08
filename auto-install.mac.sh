@@ -27,6 +27,9 @@ brew install emacs
 brew install cmake
 brew install python
 brew install ctags
+brew install node
+
+npm -g install instant-markdown-d
 
 # prepare for font patch
 git clone https://github.com/powerline/fonts ~/.fonts

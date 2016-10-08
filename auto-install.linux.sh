@@ -28,6 +28,11 @@ sudo apt-get install -y build-essential cmake
 sudo apt-get install -y python-dev python3-dev
 sudo apt-get install -y exuberant-ctags
 sudo apt-get install -y libclang1-3.8 libclang-3.8-dev
+
+sudo apt-get install -y xdg-utils curl nodejs-legacy
+
+sudo npm -g install instant-markdown-d
+
 # prepare for font patch
 git clone https://github.com/powerline/fonts ~/.fonts
 sh ~/.fonts/install.sh

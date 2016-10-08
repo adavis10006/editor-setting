@@ -12,6 +12,7 @@ source ~/.vim/config/numbers.config.vim
 source ~/.vim/config/indentline.config.vim
 source ~/.vim/config/youcompleteme.config.vim
 source ~/.vim/config/auto-pairs.config.vim
+source ~/.vim/config/pangu.config.vim
 
 " Programming
 " - Syntax

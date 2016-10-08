@@ -59,6 +59,12 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ntpeters/vim-better-whitespace'
 " Table creation
 Plugin 'dhruvasagar/vim-table-mode'
+" Pangu
+Plugin 'hotoo/pangu.vim'
+" speeddating
+Plugin 'tpope/vim-speeddating'
+" markdown helper
+Plugin 'suan/vim-instant-markdown'
 
 " File Search
 " search amd display information from buffers, files
@@ -92,6 +98,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'othree/html5.vim'
+Plugin 'moll/vim-node'
 " - on-the-fly
 Plugin 'tpope/vim-dispatch'
 
