@@ -11,6 +11,9 @@ ZSH_THEME="ys"
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# aliases browser-sync
+alias browser="browser-sync start -s '/Users/Davis/WebSite/' --files '*/html, css/*.css'"
+
 # aliases vim-ssh
 alias vim-ssh="vim -u ~/.vimrc-ssh"
 
@@ -21,7 +24,7 @@ alias vundle="vim +PluginInstall +qall"
 alias tmux="TERM=screen-256color tmux -2"
 
 # set PATH
-export PATH="/home/davis/CTF-Tools/Tools/roputils:/opt/local/bin:/opt/local/sbin:/opt/local/msf:"$PATH
+export PATH="/home/davis/CTF-Tools/Tools/roputils:/opt/local/bin:/opt/local/sbin:/opt/local/msf:/usr/local/bin:"$PATH
 
 # set TERM
 #export TERM="xterm-256color"

@@ -65,6 +65,12 @@ Plugin 'hotoo/pangu.vim'
 Plugin 'tpope/vim-speeddating'
 " markdown helper
 Plugin 'suan/vim-instant-markdown'
+" Snippets engine
+Plugin 'SirVer/ultisnips'
+" Snippets are separated from the engine
+Plugin 'honza/vim-snippets'
+" Template
+Plugin 'adavis10006/vim-template'
 
 " File Search
 " search amd display information from buffers, files
@@ -99,6 +105,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'othree/html5.vim'
 Plugin 'moll/vim-node'
+Plugin 'Kocha/vim-systemc'
 " - on-the-fly
 Plugin 'tpope/vim-dispatch'
 

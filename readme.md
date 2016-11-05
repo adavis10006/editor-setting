@@ -121,6 +121,9 @@ The list of plugins that used in VIM
 - [suan/vim-instant-markdown](https://github.com/suan/vim-instant-markdown)
 
   Instant Markdown previews from Vim!
+- [jaxbot/browserlink.vim](https://github.com/jaxbot/browserlink.vim)
+
+  Browserlink is a live browser editing plugin for Vim.
 
 #### Fuzzy Search
 - [shougo/unite.vim](https://github.com/shougo/unite.vim)
@@ -163,14 +166,14 @@ The list of plugins that used in VIM
   :Gdiff " compare working copy with index version
   ```
   | command | active window | affect        |
-  | -       | :-:           | -:            |
+  | ---     | :---:         | ---:          |
   | :Gwrite | working       | stage file    |
   | :Gwrite | index         | checkout file |
   | :Gread  | working       | checkout file |
   | :Gwrite | index         | stage file    |
 
   | command  | active window | affect        |
-  | -        | :-:           | -:            |
+  | ---      | :---:         | ---:          |
   | :diffput | working       | stage hunk    |
   | :diffput | index         | checkout hunk |
   | :diffget | working       | checkout hunk |
@@ -227,6 +230,7 @@ The list of plugins that used in VIM
   ```vim
   :Dispatch g++ %
   ```
+
 ### Keybinding
 
 ```vim
